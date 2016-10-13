@@ -1,0 +1,42 @@
+
+ body
+{
+margin:30;
+padding:5;
+font: 90% arial,halvalica,sans-serif;
+background: darkgoldenrod;
+color:#F0FFFF;
+
+}   
+ 
+ 
+ .font {
+        
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color:black; 
+        font-size: 15pt; 
+        text-decoration: none}
+.h1 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color:royalblue; 
+        font-size: 30pt; 
+        text-decoration: none}
+
+        .font1 {
+        
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color:darkblue; 
+        font-size: 15pt; 
+        text-decoration: none}
+
+        .font2 {
+        
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color:whitesmoke; 
+        font-size: 15pt; 
+        text-decoration: none}
+
+       
+
+        
+	
