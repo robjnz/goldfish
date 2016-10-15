@@ -1,14 +1,18 @@
 
  body
 {
-margin:30;
-padding:5;
+margin:30px;
+padding:5px;
 font: 90% arial,halvalica,sans-serif;
 background: black;
 color:#F0FFFF;
 font-family: Verdana, Arial, Helvetica, sans-serif;
  font-size: 15pt;
 }
+
+.a{
+        color: "red"
+        }
 
 .h1 {
         font-family: Verdana, Arial, Helvetica, sans-serif;
