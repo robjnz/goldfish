@@ -34,9 +34,32 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
         font-size: 15pt; 
         text-decoration: none}
 
-        
+    
+.gallery {
+        overflow: hidden;
+    }
+        .gallery__item {
+            float: left;
+            width: 48%;
+            margin-right: 2%;
+        }
+            .gallery__item:nth-child(odd) {
+                clear: both;
+            }
+            .gallery__item:nth-child(even) {
+                float: right;
+                margin-right: 0;
+            }
 
-       
-
-        
-	
+figure {
+    margin: 0 0 1.25em; /* 16 * 1.2 = 20 */
+}
+.figure {
+    position: relative; /* contain the source */
+}
+    .figure__caption {
+        font-size: 0.875em; /* 16 * .875 = 14 */
+        font-style: italic;
+        margin: 1em 0 0;
+    }
+      
