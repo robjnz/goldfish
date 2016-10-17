@@ -10,14 +10,14 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
  line-height: 1.5em;
 }
 
-.a{
-        color: "red"
+.a:hover{
+        color: red;
         }
 
 .h1 {
         font-family: Verdana, Arial, Helvetica, sans-serif;
         color: gold;  
-        font-size: 30pt; 
+        font-size: 2em; 
         text-decoration: none}
 
         .font1 {
