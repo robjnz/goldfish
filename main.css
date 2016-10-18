@@ -10,7 +10,21 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
  line-height: 1.5em;
 }
 
-.a:hover{
+ p em  {
+
+        color: red;
+    }
+    p i {color: darkgoldenrod;
+ }
+ :link{color:springgreen;
+
+ }
+
+ a:hover {color: yellowgreen;
+
+  }
+
+:visited{
         color: red;
         }
 
@@ -65,9 +79,4 @@ figure {
         margin: 1em 0 0;
     }
       
-    p em  {
-
-        color: red;
-    }
-    p i {color: darkgoldenrod;
- }
+   
