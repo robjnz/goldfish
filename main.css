@@ -4,10 +4,15 @@
 margin:30px;
 padding:5px;
 background: black;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+54 */
+background: #7d7e7d; /* Old browsers */
+background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 54%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 54%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 54%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
 color:#F0FFFF;
-font-family: Verdana, Arial, Helvetica, sans-serif;
+font-family: Verdana, Arial, Helvetica, sans-serif; 
  font-size: 1.5em;
- line-height: 1.5em;
 }
 
  p em  {
@@ -16,7 +21,7 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
     }
     p i {color: darkgoldenrod;
  }
- :link{color:springgreen;
+ :link{color:orangered;
 
  }
 
