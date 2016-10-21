@@ -1,0 +1,9 @@
+C:\Users\John Lewis\Desktop\homework\goldfish\menu\wrapper_bg.png
+C:\Users\John Lewis\Desktop\homework\goldfish\menu\wrapper_simple_bg.png
+C:\Users\John Lewis\Desktop\homework\goldfish\menu\buttonhot_bg.png
+C:\Users\John Lewis\Desktop\homework\goldfish\menu\ebab_mbocly.png
+C:\Users\John Lewis\Desktop\homework\goldfish\menu\ebab_mbocly_c.png
+C:\Users\John Lewis\Desktop\homework\goldfish\menu\ebab_mbocly_c2.png
+C:\Users\John Lewis\Desktop\homework\goldfish\menu\mbjsmbocly.js
+C:\Users\John Lewis\Desktop\homework\goldfish\menu\mbcsmbocly.css
+C:\Users\John Lewis\Desktop\homework\goldfish\menu\filelist_ocly.txt
