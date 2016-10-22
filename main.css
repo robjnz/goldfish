@@ -20,7 +20,7 @@ main p:first-letter
 { float: left;
  color:darkgoldenrod ; 
  font-size: 3em;
- line-height: 35px; 
+ line-height: 52px; 
  padding-top: 4px; 
  padding-right: 8px; 
  padding-left: 3px;
@@ -99,4 +99,21 @@ figure {
     {
         border: darkgoldenrod 5px solid;
         border-radius: 10px;
-    }
+    } 
+
+.div1 {
+    width: 48%;
+    height: auto;
+    padding: 10px;
+    border: 0px solid blue;
+    float: left;
+   position: relative;
+}
+
+.div2 {
+    width: 48%;
+    height: auto;
+    padding: 10px;
+    border: 0px solid red;
+    position: relative;
+    float: right;}
