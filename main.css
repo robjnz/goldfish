@@ -20,7 +20,7 @@ main p:first-letter
 { float: left;
  color:darkgoldenrod ; 
  font-size: 3em;
- line-height: 52px; 
+ line-height: 0.8em; 
  padding-top: 4px; 
  padding-right: 8px; 
  padding-left: 3px;
@@ -67,6 +67,10 @@ main p:first-letter
         box-shadow: -2px 5px 10px 7px #f90;
          }
 
+         .img
+         {transform: rotate(9deg);
+         }
+
     
 .gallery {
         overflow: hidden;
@@ -105,11 +109,11 @@ figure {
     width: 48%;
     height: auto;
     padding: 20px;
-    border: 0px solid blue;
+    border: 0px solid blue; 
     float: left;
    position: relative;
-}
-
+   
+} 
 .div2 {
     width: 47%;
     height: auto;
