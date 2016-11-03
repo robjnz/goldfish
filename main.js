@@ -189,3 +189,38 @@ function closeNav() {
         callback();
     };
 }(window));
+
+// Get the active Media Query as defined in the CSS
+// Use the following format:
+// #getActiveMQ-watcher { font-family: "default"; }
+// @media only screen and (min-width:20em){ #getActiveMQ-watcher { font-family: "small"; } }
+// etc.
+window.getActiveMQ = function() {
+      // Build the watcher
+  var $watcher = document.createElement('div'),
+      // alias getComputedStyle
+      computed = window.getComputedStyle,
+      // Regexp for removing quotes
+      re = /['"]/g;
+      
+  // set upt the watcher and add it to the DOM
+  $watcher.setAttribute( 'id', 'getActiveMQ-watcher' );
+  $watcher.style.display = 'none';
+  document.body.appendChild( $watcher );
+      
+  // For modern browsers
+  if ( computed )
+  {
+    window.getActiveMQ = function() {
+      return computed( $watcher, null ).getPropertyValue( 'font-family' ).replace( re, '' );
+    };
+  }
+  // For everything else
+  else
+  {
+    window.getActiveMQ = function() {
+      return 'unknown';
+    };
+  }
+  return window.getActiveMQ();
+};

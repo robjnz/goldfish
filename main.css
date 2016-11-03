@@ -692,5 +692,23 @@ figure {
     }
 }
 
-/*slide in menu*/
+#getActiveMQ-watcher {
+  font-family: "break-0";
+}
+@media only screen and (min-width: 20em) {
+  #getActiveMQ-watcher {
+    font-family: "break-1";
+  }
+}
+@media only screen and (min-width: 30em) {
+  #getActiveMQ-watcher {
+    font-family: "break-2";
+  }
+}
+@media only screen and (min-width: 48em) {
+  #getActiveMQ-watcher {
+    font-family: "break-3";
+  }
+}
+/* etc. */
 
