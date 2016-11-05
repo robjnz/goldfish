@@ -224,3 +224,32 @@ window.getActiveMQ = function() {
   }
   return window.getActiveMQ();
 };
+
+	// Adjust the nav to slide in from the right if the browser window is "small"
+	window.watchResize(function(){
+
+		var current_MQ = window.getActiveMQ();
+
+		if ( current_MQ == 'small' &&
+			 ! page_classes.contains( drawer_enabled_class ) )
+		{
+			page_classes.add( drawer_enabled_class );
+			// handle toggles
+			$menu_opener.addEventListener( 'click', toggleDrawerNav, false );
+			$menu_opener.addEventListener( 'touchdown', toggleDrawerNav, false );
+			$menu_closer.addEventListener( 'click', toggleDrawerNav, false );
+			$menu_closer.addEventListener( 'touchdown', toggleDrawerNav, false );
+		}
+		else if ( current_MQ != 'small' &&
+		          page_classes.contains( drawer_enabled_class ) )
+		{
+			page_classes.remove( drawer_enabled_class );
+			// handle toggles
+			$menu_opener.removeEventListener( 'click', toggleDrawerNav, false );
+			$menu_opener.removeEventListener( 'touchdown', toggleDrawerNav, false );
+			$menu_closer.removeEventListener( 'click', toggleDrawerNav, false );
+			$menu_closer.removeEventListener( 'touchdown', toggleDrawerNav, false );
+		}
+
+	});
+
